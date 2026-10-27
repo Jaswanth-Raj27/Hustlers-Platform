@@ -1,0 +1,12 @@
+DirectoryIndex index.php
+Options -Indexes
+RedirectMatch 404 /\.git(?:/|$)
+<FilesMatch "^\.">
+ Require all denied
+</FilesMatch>
+<FilesMatch "\.(sqlite|sqlite3|db|log|txt|java|md|zip|bak|sql)$">
+ Require all denied
+</FilesMatch>
+<FilesMatch "^(bootstrap|app|database|migrate|router|seed-demo|demo-content|profile-actions|profile-view|candidates-view|offers-view|migrate-profiles|company-view|seed-four|demo-catalog|skills|demo-skills|resume-actions|resume-view|resume-download|demo-profiles)\.php$">
+ Require all denied
+</FilesMatch>
