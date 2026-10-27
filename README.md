@@ -2,7 +2,26 @@
 
 A PHP and MySQL job portal for job seekers and employers, with skill-based candidate matching, multiple résumé versions and hiring offers.
 
-![Hustlers desktop preview](docs/screenshots/desktop.jpg)
+## Website screenshots
+
+The app running with fictional portfolio accounts and illustrative vacancies.
+
+![Hustlers home page](docs/screenshots/desktop.jpg)
+
+| Job search | Job details and required skills |
+|---|---|
+| ![Filter available jobs](docs/screenshots/job-search.jpg) | ![Read a job description and its skill requirements](docs/screenshots/job-details.jpg) |
+
+| Employer candidate directory | Matching candidates to a role |
+|---|---|
+| ![Browse candidate profiles](docs/screenshots/candidate-directory.jpg) | ![See matching and missing skills](docs/screenshots/skill-matching.jpg) |
+
+<details>
+<summary>Mobile preview</summary>
+
+<img src="docs/screenshots/mobile.jpg" alt="Hustlers mobile home page" width="320">
+
+</details>
 
 ## Features
 
